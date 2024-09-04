@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -16,7 +18,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+    /* [COLORS] */
+    --color-customPurple-100: #faf5ff;
+    --color-customPurple-200: #faf5ff;
+    --color-customPurple-300: #D36AF7;
+    --color-customPurple-400: #faf5ff;
+    --color-customPurple-500: #c778e2;
+    --color-customPurple-600: #994ce6;
+    --color-customPurple-700: #5C356A;
+    --color-customPurple-800: #833b9c; /* used as primary color */
+    --color-customPurple-900: #3B0C4B;
+    --color-customPurple-950: #341743;
 }
+
 
 a {
   font-weight: 500;

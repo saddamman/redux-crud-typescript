@@ -10,7 +10,22 @@ export default {
       },
     },
 
-    extend: {},
+    extend: {
+      colors: {
+        customPurple: {
+          100: "var(--color-customPurple-100)",
+          200: "var(--color-customPurple-200)",
+          300: "var(--color-customPurple-300)",
+          400: "var(--color-customPurple-400)",
+          500: "var(--color-customPurple-500)",
+          600: "var(--color-customPurple-600)",
+          700: "var(--color-customPurple-700)",
+          800: "var(--color-customPurple-800)",
+          900: "var(--color-customPurple-900)",
+          950: "var(--color-customPurple-950)",
+        },
+      },
+    },
   },
   plugins: [],
 };
