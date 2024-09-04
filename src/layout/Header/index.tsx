@@ -14,7 +14,7 @@ const Header = () => {
           <div>
             <Navigation />
           </div>
-          <div>User</div>
+          <div></div>
         </div>
       </div>
     </header>
