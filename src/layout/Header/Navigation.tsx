@@ -10,7 +10,9 @@ const Navigation = () => {
   return (
     <ul className="flex items-center gap-5">
       {NAVIGATION_MENU.map((item: NavigationItemParams) => (
-        <Link to={item.slug}>{item.title}</Link>
+        <Link to={item.slug} key={item.title}>
+          {item.title}
+        </Link>
       ))}
     </ul>
   );
